@@ -10,7 +10,16 @@ Forked from the [supplied boilerplate repository](https://github.com/freeCodeCam
 > 1. The user is then returned to our app at a specific callback url with their profile if they are approved.
 > 1. They are now authenticated and your app should check if it is a returning profile, or save it in your database if it is not.
 
-Notable packages and concepts include:
+## Local Development
+
+You'll need an `.env` file with:
+
+1. `GITHUB_CLIENT_ID`
+1. `GITHUB_CLIENT_SECRET`
+
+The rest is pretty straightforward, with `npm` for package management and `nodemon` for development server. Use `npm run dev` for starting up the local server.
+
+## Notable Packages/Concepts
 
 1. [PassportJS](https://passportjs.org/)
 1. [PugJS](https://pugjs.org/api/getting-started.html)
