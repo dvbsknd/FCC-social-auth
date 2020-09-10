@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set('view engine', 'pug')
 
-mongo.connect(process.env.DATABASE, (err, db) => {
+mongo.connect(process.env.MONGO_URI, (err, db) => {
     if(err) {
         console.log('Database error: ' + err);
     } else {
