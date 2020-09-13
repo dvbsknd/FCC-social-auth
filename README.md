@@ -24,3 +24,4 @@ The rest is pretty straightforward, with `npm` for package management and `nodem
 1. [PassportJS](https://passportjs.org/)
 1. [PugJS](https://pugjs.org/api/getting-started.html)
 1. [Github OAuth](https://docs.github.com/en/developers/apps/identifying-and-authorizing-users-for-github-apps#web-application-flow) for web applications
+1. [MongoDB](https://www.npmjs.com/package/mongodb)
