@@ -16,6 +16,8 @@ You'll need an `.env` file with:
 
 1. `GITHUB_CLIENT_ID`
 1. `GITHUB_CLIENT_SECRET`
+1. `MONGO_URI`
+1. `SESSION_SECRET`
 
 The rest is pretty straightforward, with `npm` for package management and `nodemon` for development server. Use `npm run dev` for starting up the local server.
 
